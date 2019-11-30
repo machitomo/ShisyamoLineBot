@@ -22,5 +22,5 @@
 ### 使用例
 ゴミ捨てを教えてくれるRESTと組み合わせてスケジューリングした。
 https://github.com/machitomo/gomiSearch
-![example](https://github.com/machitomo/ShisyamoLineBot/blob/image/image/sample.jpg)
+![example](https://github.com/machitomo/ShisyamoLineBot/blob/image/sample.jpg)
 
