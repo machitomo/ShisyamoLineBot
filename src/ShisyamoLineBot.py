@@ -13,12 +13,14 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage
 )
 
+from docs import setting
+
 app = Flask(__name__)
 
 # Herokuの変数からトークンなどを取得
-channel_secret = os.environ['LINE_CHANNEL_SECRET']
-channel_access_token = os.environ['LINE_CHANNEL_ACCESS_TOKEN']
-user_id = os.environ['USER_ID']
+channel_secret = setting.SECRET
+channel_access_token = setting.TOKEN
+user_id = setting.USER_ID
 
 # 環境変数の取得等が正常に行われているかを判定する
 if channel_secret is None:
